@@ -24,8 +24,8 @@ for count in range(20, 221, 40):
     print(f'cycle {count} X: {x[count]} signalstrength {count * x[count]}')
 
 tot = sum([count * x[count] for count in range(20, 221, 40)])
-print(tot-220, tot)
-# puzzle.answer_a = tot-220
+print(tot)
+# puzzle.answer_a = tot
 
 
 # puzzle.answer_a = signalStrength
